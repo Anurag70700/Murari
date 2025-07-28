@@ -5,13 +5,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Murari - Business</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #333;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #00bfff;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #00bfff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #ccc;
+    }
+
+    #location {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    #location a {
+      color: #00bfff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    #location a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f1f1f;
+      color: #888;
+      border-top: 2px solid #333;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Murari</h1>
     <nav>
       <a href="#">Home</a>
       <a href="#">Gallery</a>
+      <a href="#location">Location</a>
       <a href="#">Contact</a>
     </nav>
   </header>
@@ -22,22 +95,17 @@
       <p>Your trusted business partner.</p>
     </section>
 
-    <section id="location" style="padding: 20px; text-align: center;">
-      <h2 style="color: white; font-size: 28px; margin-bottom: 20px;">📍 हमारी Location</h2>
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.785313398342!2d84.46084837519297!3d26.040579577177763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992ef7893fb21fd%3A0xb66b673dfa530ef8!2sKrishn%20murari%20jeneral%20store!5e0!3m2!1sen!2sin!4v1753694614712!5m2!1sen!2sin" 
-        width="100%" 
-        height="350" 
-        style="border:0; border-radius: 12px;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
+    <section id="location">
+      <h2>📍 हमारी Location</h2>
+      <a href="https://www.google.com/maps/place/Krishn+murari+jeneral+store/@26.04058,84.46085,17z" target="_blank">
+        👉 Click here to open in Google Maps
+      </a>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Murari. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
